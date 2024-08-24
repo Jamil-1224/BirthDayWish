@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HappyBrithday</string>
+    <string name="qus">Enter your name</string>
+    <string name="but">Clicked</string>
+    <string name="title">Alert Title</string>
+    <string name="msg">Do you want to exit </string>
+</resources>

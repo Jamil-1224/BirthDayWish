@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B6EB79"
+    tools:context=".MainActivity">
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"/>
+
+    <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/qus"
+       android:backgroundTint="#ff22"
+       android:cursorVisible="true"
+       android:textCursorDrawable="@null"
+       android:textSize="20sp"
+       android:textColor="#1A070E"
+       android:inputType="text"
+
+       android:textStyle="bold"
+       android:layout_marginBottom="50dp"
+       android:id="@+id/edit1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/but"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/button1"/>
+
+
+</LinearLayout>
